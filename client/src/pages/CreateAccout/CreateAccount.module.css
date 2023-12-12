@@ -1,0 +1,26 @@
+.createAccount {
+	display: grid;
+	grid-template-columns: 2fr 3fr; /* Divide em duas colunas iguais */
+	gap: 8em;
+}
+
+.createAccountForm {
+	margin-top: 10em;
+}
+
+.createAccountForm > p {
+	text-align: center;
+}
+
+.createAccountBanner {
+	position: sticky;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	background: linear-gradient(148deg, #7e55d7 3.33%, #6831df 89.57%);
+	box-shadow: -8px 0px 16px 0px rgba(104, 49, 223, 0.15);
+}
+
+.content {
+	margin: 0 0 0 6.25em;
+}
